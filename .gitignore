@@ -51,5 +51,9 @@ Thumbs.db
 *.log
 
 # Temporary files
+
+# Repository preparation tools
+notebooks/prepare_github_samples.ipynb
+create_samples.py
 *.tmp
 *.temp

@@ -113,9 +113,10 @@ Projet simplifié pour une analyse efficace et directe des données ZEvent 2025.
 3. **Analysis**: Explore insights in `03_exploratory_analysis/`
 
 ### Key Notebooks
-- `01_data_extraction/zevent_complete_scraping.ipynb` - Complete data extraction pipeline
-- `03_exploratory_analysis/streamers_analysis.ipynb` - Streamer performance analysis
-- `03_exploratory_analysis/temporal_patterns.ipynb` - Time series analysis
+- `notebooks/01_data_preparation.ipynb` - Extraction et nettoyage des données
+- `notebooks/02_analysis.ipynb` - Analyses statistiques détaillées
+- `notebooks/03_visualizations.ipynb` - Visualisations et graphiques
+- `notebooks/04_ZEvent_analysis.ipynb` - Analyse complète et rapport final
 
 ## 📈 Available Analyses
 
