@@ -43,12 +43,16 @@ Puis ouvrez les notebooks dans l'ordre suivant :
 ZEvent2025_data_analyse/
 ├── data/
 │   ├── raw/           # Données brutes (API ZEvent, SullyGnome CSV)
-│   └── clean/         # Données nettoyées et prêtes pour analyse
+│   ├── clean/         # Données nettoyées et prêtes pour analyse
+│   └── sample/        # Échantillons de données pour GitHub
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb    # Extraction et nettoyage
 │   ├── 02_analysis.ipynb            # Analyses statistiques
-│   └── 03_visualizations.ipynb      # Graphiques et rapports
+│   ├── 03_visualizations.ipynb      # Graphiques et rapports
+│   └── 04_ZEvent_analysis.ipynb     # Analyse complète
 ├── outputs/           # Résultats et visualisations
+│   └── figures/       # Visualisations pour le README
+├── .github/           # Templates et documentation GitHub
 └── requirements.txt
 ```
 
