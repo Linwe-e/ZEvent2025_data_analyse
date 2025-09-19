@@ -12,7 +12,7 @@ Analyser les données de ZEvent 2025 pour comprendre les patterns de donations, 
 
 ```bash
 # Cloner le repo
-git clone https://github.com/votre-username/ZEvent2025_data_analyse.git
+git clone https://github.com/Linwe-e/ZEvent2025_data_analyse.git
 cd ZEvent2025_data_analyse
 
 # Créer un environnement virtuel
@@ -80,17 +80,19 @@ ZEvent2025_data_analyse/
 - **Period**: September 5-7, 2025
 - **Data Quality**: 97.9% completion rate
 
-## 🚀 Utilisation
+## � Workflow d'analyse
 
-1. **Installation**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Analyse complète**
+1. **Préparation des données**
    - Lancer `01_data_preparation.ipynb` pour préparer les données
+   
+2. **Analyse statistique**
    - Lancer `02_analysis.ipynb` pour l'analyse statistique
+   
+3. **Visualisations**
    - Lancer `03_visualizations.ipynb` pour les graphiques
+   
+4. **Analyse complète**
+   - Lancer `04_ZEvent_analysis.ipynb` pour l'analyse finale
 
 ## 📈 Résultats
 
@@ -100,17 +102,10 @@ Les notebooks génèrent :
 - Visualisations interactives
 - Rapports exports-ready
 
-## � Sources
+## 🌐 Sources
 
 - **API ZEvent** : zevent-api.gdoc.fr
 - **SullyGnome** : Métriques Twitch complémentaires
-
-## 📝 Notes
-
-Projet simplifié pour une analyse efficace et directe des données ZEvent 2025.
-1. **Data Extraction**: Execute notebooks in `01_data_extraction/`
-2. **Data Processing**: Run processing notebooks in `02_data_processing/`
-3. **Analysis**: Explore insights in `03_exploratory_analysis/`
 
 ### Key Notebooks
 - `notebooks/01_data_preparation.ipynb` - Extraction et nettoyage des données
@@ -118,61 +113,61 @@ Projet simplifié pour une analyse efficace et directe des données ZEvent 2025.
 - `notebooks/03_visualizations.ipynb` - Visualisations et graphiques
 - `notebooks/04_ZEvent_analysis.ipynb` - Analyse complète et rapport final
 
-## 📈 Available Analyses
+## 📈 Analyses disponibles
 
-### 🎪 Streamer Performance
-- Donation efficiency and audience engagement
-- Top performers and growth patterns
-- Individual vs collaborative performance
+### 🎪 Performance des streamers
+- Efficacité des donations et engagement de l'audience
+- Top performeurs et tendances de croissance
+- Performance individuelle vs collaborative
 
-### ⏰ Temporal Patterns
-- Peak donation and viewing hours
-- Event impact on engagement
-- Circadian patterns and weekend effects
+### ⏰ Patterns temporels
+- Heures de pics de donations et de visionnage
+- Impact de l'événement sur l'engagement
+- Patterns circadiens et effets de weekend
 
-### 🎯 Goal Achievement
-- Donation objective analysis
-- Success factors and strategies
-- Gamification effectiveness
+### 🎯 Atteinte des objectifs
+- Analyse des objectifs de donation
+- Facteurs de succès et stratégies
+- Efficacité de la gamification
 
-### 🎮 Event Coordination
-- Scheduled activity impact
-- Cross-streamer collaboration
-- Programming optimization
+### 🎮 Coordination d'événement
+- Impact des activités programmées
+- Collaboration entre streamers
+- Optimisation de la programmation
 
-## 🛠️ Technical Stack
+## 🛠️ Stack technique
 
-- **Data Processing**: pandas, numpy
-- **Visualization**: matplotlib, seaborn, plotly
-- **Analysis**: scipy, scikit-learn
+- **Traitement de données**: pandas, numpy
+- **Visualisation**: matplotlib, seaborn, plotly
+- **Analyse**: scipy, scikit-learn
 - **Web Scraping**: requests, BeautifulSoup
 - **Notebooks**: Jupyter, ipywidgets
 
-## 📊 Data Sources
+## 📊 Sources de données
 
-- **ZEvent API** (`zevent-api.gdoc.fr`) - Official event data
-- **GitHub Cache** (`maniarr.github.io/cache.zevent.gdoc.fr`) - Historical statistics
-- **SullyGnome** (`sullygnome.com`) - Twitch analytics (optional)
+- **ZEvent API** (`zevent-api.gdoc.fr`) - Données non-officielles de l'événement
+- **GitHub Cache** (`maniarr.github.io/cache.zevent.gdoc.fr`) - Statistiques historiques
+- **SullyGnome** (`sullygnome.com`) - Analytiques Twitch (optionnel)
 
-## 🤝 Contributing
+## 🤝 Contribuer
 
-This project follows data science best practices:
-- Modular and reusable code
-- Comprehensive documentation
-- Data quality validation
-- Reproducible analysis pipeline
+Ce projet suit les meilleures pratiques de data science :
+- Code modulaire et réutilisable
+- Documentation complète
+- Validation de la qualité des données
+- Pipeline d'analyse reproductible
 
-## 📄 License
+## 📄 Licence
 
-This project is for educational and research purposes. All data is publicly available and used respectfully according to terms of service.
+Ce projet est destiné à des fins éducatives et de recherche. Toutes les données sont publiquement disponibles et utilisées dans le respect des conditions d'utilisation.
 
-## 🎯 Next Steps
+## 🎯 Prochaines étapes
 
-- [ ] Advanced ML modeling for donation prediction
-- [ ] Real-time dashboard development
-- [ ] Cross-year ZEvent comparison analysis
-- [ ] Network analysis of streamer interactions
+- [ ] Modélisation ML avancée pour la prédiction des donations
+- [ ] Développement d'un tableau de bord en temps réel
+- [ ] Analyse comparative des ZEvent à travers les années
+- [ ] Analyse réseau des interactions entre streamers
 
 ---
 
-*Built with ❤️ for the ZEvent community and open-source data analysis*
+*Conçu avec ❤️ pour la communauté ZEvent et l'analyse de données open-source*
